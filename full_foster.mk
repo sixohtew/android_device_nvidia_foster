@@ -18,7 +18,7 @@ $(call inherit-product, device/google/atv/products/atv_base.mk)
 $(call inherit-product, device/nvidia/foster/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_foster
+PRODUCT_NAME := bliss_foster
 PRODUCT_DEVICE := foster
 PRODUCT_BRAND := NVIDIA
 PRODUCT_MANUFACTURER := NVIDIA
