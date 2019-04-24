@@ -16,7 +16,7 @@
 $(call inherit-product, device/nvidia/foster/full_foster.mk)
 
 # Inherit some common lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tv.mk)
+$(call inherit-product, vendor/bliss/config/common.mk)
 
-PRODUCT_NAME := lineage_foster
+PRODUCT_NAME := bliss_foster
 PRODUCT_DEVICE := foster
